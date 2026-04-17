@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Delisure - Parametric micro-insurance for gig workers">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Delisure">
+  <link rel="manifest" href="manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Delisure</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #09090B;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .loading {
+      text-align: center;
+      color: #FAFAFA;
+    }
+    .loading h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 2px;
+      background: linear-gradient(135deg, #D4A843, #E8C660);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .loading p {
+      color: #52525B;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+    }
+    .spinner {
+      margin: 24px auto;
+      width: 32px;
+      height: 32px;
+      border: 2px solid #27272A;
+      border-top-color: #D4A843;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="loading">
+    <h1>Delisure</h1>
+    <p>Your earnings, protected.</p>
+    <div class="spinner"></div>
+  </div>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

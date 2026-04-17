@@ -680,33 +680,33 @@ for 2GB RAM, Android 9+.
 - [x] 2-minute strategy and prototype video
 
 ### Phase 2 — Automation & Protection (Mar 21 – Apr 4)
-- [ ] Full worker onboarding and KYC flow (Flutter)
-- [ ] Insurance policy management screens
-- [ ] XGBoost premium model v1 integrated
-- [ ] Weather & climate trigger group live (rainfall, heat, AQI, gauge)
-- [ ] Civic & political trigger group live (bandh + election)
-- [ ] 4-layer fraud defense stack integrated
-- [ ] Anti-spoofing sensor fusion layer v1
-- [ ] End-to-end claims flow: trigger → fraud check → payout
-- [ ] Tiered claim response (clean pass / soft hold / hard flag)
-- [ ] SHAP explainability on admin dashboard v1
-- [ ] Razorpay test mode UPI simulation
+- [x] Full worker onboarding and KYC flow (Flutter)
+- [x] Insurance policy management screens
+- [x] XGBoost premium model v1 integrated
+- [x] Weather & climate trigger group live (rainfall, heat, AQI, gauge)
+- [x] Civic & political trigger group live (bandh + election)
+- [x] 4-layer fraud defense stack integrated
+- [x] Anti-spoofing sensor fusion layer v1
+- [x] End-to-end claims flow: trigger → fraud check → payout
+- [x] Tiered claim response (clean pass / soft hold / hard flag)
+- [x] SHAP explainability on admin dashboard v1
+- [x] Razorpay test mode UPI simulation
 
 ### Phase 3 — Scale & Optimise (Apr 5–17)
-- [ ] Isolation Forest fraud engine integrated
+- [x] Isolation Forest fraud engine integrated
 - [ ] Graph ring detection (Neo4j + PyTorch Geometric)
 - [ ] LSTM trigger timing manipulation detector
 - [ ] BERT civic disruption classifier with confidence scoring
-- [ ] Traffic paralysis + outage + order volume collapse triggers live
-- [ ] Cyclone pre-emptive trigger
+- [x] Traffic paralysis + outage + order volume collapse triggers live
+- [x] Cyclone pre-emptive trigger
 - [ ] Churn prediction + proactive retention
 - [ ] Micro-zone learning pipeline v1
-- [ ] Worker appeal flow with plain-language XAI
-- [ ] Compliance PDF export (SHAP audit trail)
-- [ ] Worker dashboard + insurer admin dashboard
-- [ ] Full end-to-end demo: simulated cyclone → trigger fires →
+- [x] Worker appeal flow with plain-language XAI
+- [x] Compliance PDF export (SHAP audit trail)
+- [x] Worker dashboard + insurer admin dashboard
+- [x] Full end-to-end demo: simulated cyclone → trigger fires →
       anti-spoofing passes → UPI payout credited
-- [ ] Final pitch deck + 5-minute walkthrough video
+- [x] Final pitch deck + 5-minute walkthrough video
 
 ## Demo
 
@@ -717,4 +717,9 @@ https://github.com/user-attachments/assets/adec701e-c71f-45d0-8752-53d10c84eb85
 ---
 
 *Guidewire DEVTrails 2026 — Unicorn Chase*
-*Demo video: [link]*
+
+---
+
+## Pitch Deck
+
+**PITCH DECK URL:** https://drive.google.com/drive/u/2/folders/1pBDYoxzKFhDNtTLHnfVO-HzKxEPHgzfn

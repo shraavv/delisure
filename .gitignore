@@ -1,0 +1,28 @@
+# Environment secrets
+.env
+**/.env
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Flutter / Dart
+.dart_tool/
+build/
+**/.flutter-plugins*
+ios/Pods/
+android/.gradle/
+android/app/build/
+android/build/
+linux/flutter/ephemeral/
+macos/Flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# OS
+.DS_Store
+
+# Demo outputs
+demo/output/*.mp4

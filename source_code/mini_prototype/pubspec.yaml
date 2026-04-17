@@ -1,0 +1,35 @@
+name: delisure_mini_prototype
+description: Delisure Mini Prototype - Standalone demo of the mobile app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  fl_chart: ^0.68.0
+  intl: ^0.19.0
+  shimmer: ^3.0.0
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  url_launcher: 6.3.1
+  path_provider: ^2.1.4
+  open_filex: ^4.5.0
+  sensors_plus: 5.0.1
+  battery_plus: 5.0.3
+  connectivity_plus: 5.0.2
+  network_info_plus: 5.0.3
+
+dependency_overrides:
+  url_launcher_android: 6.3.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
